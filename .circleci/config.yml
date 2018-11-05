@@ -44,6 +44,12 @@ jobs:
           name: Install awscli
           command: sudo pip install awscli
       - run:
+          name: list dir
+          command: ls
+      - run:
+          name: list parent
+          command: ls ..
+      - run:
           name: Deploy to S3
           command: aws s3 sync build s3://corey.media.s3-website-us-east-1.amazonaws.com/ --delete
 
