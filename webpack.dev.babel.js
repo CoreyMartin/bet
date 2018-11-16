@@ -23,6 +23,7 @@ export default {
     noInfo: false,
     stats: 'minimal',
     contentBase: config.output.path,
+    https: true,
     hot: true,
   },
 
