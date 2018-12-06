@@ -12,7 +12,7 @@ class Container extends Component {
   render() {
     return (
       <div>
-        <h1>This is the betting app</h1>
+        <h1>temp</h1>
         <h2>{this.state.date}</h2>
         <div>{this.props.children}</div>
       </div>
